@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background: #eee;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
+  flex-wrap: wrap;
+}
+
+input,
+select {
+  width: 265px;
+  height: 30px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image {
+  height: 200px;
+  margin-top: -18px;
+}
+
+.search-box input,
+.region-select {
+  font-size: 20px;
+}
+
+.card {
+  width: 256px;
+  margin: 20px;
+  box-shadow: 0px 0px 10px silver;
+  overflow: hidden;
+}
+
+.card-body {
+  padding: 16px;
+}
+
+.card-body h2 {
+  margin-bottom: 10px;
+}
+
+.card-body p {
+  margin-bottom: 5px;
+}
